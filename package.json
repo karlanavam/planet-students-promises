@@ -1,0 +1,26 @@
+{
+  "name": "planet-students-promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlanavam/planet-students-promises.git"
+  },
+  "keywords": [
+    "planet"
+  ],
+  "author": "Karla Nava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlanavam/planet-students-promises/issues"
+  },
+  "homepage": "https://github.com/karlanavam/planet-students-promises#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "materialize-css": "^0.99.0"
+  }
+}
