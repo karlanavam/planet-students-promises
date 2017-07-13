@@ -20,7 +20,6 @@ getJSON("data/earth-like-results.json")
 .then(function(mensaje){return getJSON(mensaje.results.forEach(function(planeta){
     getJSON(planeta)
     .then(function(resultado){
-        console.log(resultado);
         imprimePlanetas(resultado);
     })
     }))
@@ -41,9 +40,12 @@ function imprimePlanetas(resultado) {
     
     h5.innerText = resultado.pl_name;
     ano.innerText = "Discover in " + resultado.pl_disc;
+    ano.className = "inline-b";
     anosLuz.innerText = resultado.st_dist;
-    telescopio.innerText = resultado.pl_telescope;
+    telescopio.innerText = " with " + resultado.pl_telescope;
+    telescopio.className = "inline-b";
     gifPlaneta.src = '/assets/' + contador + '.gif';
+    gifPlaneta.className = "pd-lft";
 
     sectionPlanetas.appendChild(divPlaneta);
     divPlaneta.appendChild(h5);
