@@ -17,3 +17,10 @@ h2{
     margin-bottom: 5%;
 }
 
+.inline-b {
+    display: inline;
+}
+
+.pd-lft {
+    padding-left: 8%;
+}
